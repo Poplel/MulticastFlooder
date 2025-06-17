@@ -5,6 +5,8 @@ import threading
 
 #Super epic multicast spammer
 
+print("Multicast Flood Simulator V1.0 \nMade by Poplel for more info go to poplel.xyz")
+
 def multicast_flood(mcast_adr, mcast_port, num_packets):
     message = b"MULTICASTSPAMPACKETS"
     try:
